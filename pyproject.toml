@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flappybird"
+version = "0.1.0"
+description = "popular game rebuilt"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygame = "^2.5.2"
+ipython = "^8.23.0"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
